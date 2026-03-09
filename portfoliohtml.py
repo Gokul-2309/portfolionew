@@ -101,7 +101,7 @@ st.components.v1.html(particles,height=0)
 col1,col2 = st.columns([1,2])
 
 with col1:
-    st.image("pic.jpg",width=230)
+    st.image("pic.jpeg",width=230)
 
 with col2:
 
@@ -261,4 +261,5 @@ st.write("---")
 st.markdown(
 "<center>⚡ Built with Streamlit | Gokul Portfolio</center>",
 unsafe_allow_html=True
+
 )
