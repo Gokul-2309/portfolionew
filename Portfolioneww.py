@@ -38,7 +38,7 @@ margin-right:10px;
 col1, col2 = st.columns([1,2])
 
 with col1:
-    image = Image.open("image = Image.open("pic.jpeg")")   # add your profile image
+    image = Image.open("pic.jpeg")   # add your profile image
     st.image(image, width=220)
 
 with col2:
@@ -163,4 +163,5 @@ st.markdown("## 📞 Contact")
 st.write("📧 gokulms2309@gmail.com")
 
 st.write("📍 Chennai, India")
+
 
